@@ -8,6 +8,10 @@ This repository contains a React application that greets users based on the curr
 - Shows the current hour in a user-friendly format.
 - Utilizes functional components and hooks in React.
 
+## Visual Design
+
+![Index](Index.png)
+
 ## Getting Started
 
 ### Prerequisites
