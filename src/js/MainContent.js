@@ -1,14 +1,7 @@
-import React, { useEffect } from "react";
-
 function MainContent() {
-  // Log to check if the component is mounted and updated
-  useEffect(() => {
-    console.log("MainContent component mounted or updated");
-  }, []);
-
   // Define user's first and last name
-  const firstName = "First and";
-  const lastName = "Last Name";
+  const firstName = "Bhoomi";
+  const lastName = "Gohil";
 
   // Get the current date and extract the hour
   const date = new Date();
@@ -24,8 +17,6 @@ function MainContent() {
   } else {
     timeOfDay = "night";
   }
-
-  console.log("Checking HMR");
 
   // Return JSX displaying a greeting message and the current hour
   return (
